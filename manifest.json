@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Örnek Center — Market Yönetim",
+  "version": "1.0.0",
+  "description": "Örnek Center market yönetim, muhasebe ve kâr dağıtım sistemi. Çevrimdışı çalışır; veriler cihazda saklanır.",
+  "action": {
+    "default_title": "Örnek Center'ı Aç",
+    "default_icon": { "16": "icon16.png", "32": "icon32.png", "48": "icon48.png", "128": "icon128.png" }
+  },
+  "background": { "service_worker": "background.js" },
+  "permissions": ["tabs"],
+  "icons": { "16": "icon16.png", "32": "icon32.png", "48": "icon48.png", "128": "icon128.png" }
+}
